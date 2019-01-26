@@ -53,9 +53,9 @@ app.put('/api/reservations/:id', (req, res) => {
     if(!reservation) res.status(404).send('The reservation with the given Id was not found');
 
 
-                                        // if not existing, return 404
-                                       // if existing, validate
-                                      // if invalid, return 404
+    // if not existing, return 404
+   // if existing, validate
+  // if invalid, return 404
 
 
     reservation.name = req.body.name;  // update the reservation
